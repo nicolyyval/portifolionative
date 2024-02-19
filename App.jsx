@@ -82,7 +82,7 @@ export default function App()
         
           <Introducao
             nome='Nicoly Val'
-            descricao='Desenvolvedora de Sistemas, 16 anos'
+            descricao='Desenvolvedora de Sistemas, 3° semestre, 16 anos'
             descricaoLonga='Sou Nicoly, natural de Campinas-SP, e atualmente conto com 16 anos de idade. Encontro-me matriculada no curso de Desenvolvimento de Sistemas no SENAI Valinhos-SP. Sou apaixonado por litaratura e por tudo que ela pode nos proporcionar e musicas instrumentais, e por isso, estou sempre buscando inateragir mais sobre o assunto. Além disso, sou uma pessoa muito comunicativa e gosto de trabalhar em equipe, pois acredito que a troca de conhecimentos é essencial para o crescimento profissional e pessoal de todos.'
             imagemSrc={require('./assets/nicolyval.jpg')}
           />
