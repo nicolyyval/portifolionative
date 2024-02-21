@@ -7,7 +7,7 @@ import { FontAwesome } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
 import { FontAwesome6 } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import Card from './components/card';
+import ProjetoCard from './components/card';
 import Introducao from './components/introducao';
 
 const projetosNicoly = [
@@ -94,7 +94,7 @@ export default function App()
         {verProjetosNicoly && (
           <View className="p-1 w-full mx-auto rounded-md">
             {projetosNicoly.map((projeto, index) => (
-              <Card
+              <ProjetoCard
                 key={index}
                 titulo={projeto.titulo}
                 descricao={projeto.descricao}
